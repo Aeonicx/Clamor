@@ -1,0 +1,13 @@
+{% autoescape off %}
+Hi, {{user.name}} 
+</br> </br>
+Please click on the link to verify your email address,
+<a
+    href="{{url}}"
+    target="_blank"
+    rel="noopener noreferrer"
+    >click here.</a
+>
+</br>
+<small>This link will be valid for 5 minutes.</small>
+{% endautoescape %}
